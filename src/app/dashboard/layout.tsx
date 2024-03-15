@@ -1,4 +1,4 @@
-import { Sidebar } from "@/app/components/Sidebar";
+import { Sidebar } from "@/components/Sidebar";
 
 export default function DasboardLayout({
   children,
@@ -12,7 +12,7 @@ export default function DasboardLayout({
 
         <Sidebar />
         
-        <div className="p-2 w-full text-slate-900">
+        <div className=" w-full text-slate-900">
             {children}
         </div>
 
